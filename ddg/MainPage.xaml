@@ -1,0 +1,27 @@
+﻿<Page x:Class="ddg.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:ddg"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock Style="{StaticResource MessageDialogContentStyle}"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   Margin="38,0">
+       	<Run Text="ddg is now registered!" 
+             FontWeight="Bold"/>
+       	<LineBreak />
+       	<Run />
+       	<LineBreak />
+       	<Run Text="To search, just type &quot;ddg your search query here&quot; into Cortana. It even accepts all of ddg's shortcuts, so you can type &quot;ddg !g your search query here&quot; and it'll pull up Google search results." />
+       	<LineBreak />
+       	<Run Text="" />
+       	<LineBreak />
+       	<Run Text="Enjoy!" />
+        </TextBlock>
+    </Grid>
+</Page>
